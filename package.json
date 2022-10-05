@@ -1,0 +1,25 @@
+{
+  "name": "master_node_express_graphql",
+  "version": "1.0.0",
+  "description": "master_node_express_graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzjprogramador/master_node_express_graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzjprogramador/master_node_express_graphql/issues"
+  },
+  "homepage": "https://github.com/rzjprogramador/master_node_express_graphql#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0"
+  }
+}
