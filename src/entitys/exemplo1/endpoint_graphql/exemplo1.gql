@@ -1,0 +1,6 @@
+
+type Query {
+  exemplo1Inicio: String
+}
+
+
