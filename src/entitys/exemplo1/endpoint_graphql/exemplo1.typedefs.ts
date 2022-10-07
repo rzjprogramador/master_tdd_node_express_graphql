@@ -1,3 +1,5 @@
+import { gql } from 'apollo-server-express'
+
 
 const exemplo1TypeDefs = gql`
 type Query {

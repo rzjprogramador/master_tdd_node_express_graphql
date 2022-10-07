@@ -2,9 +2,11 @@ import express from 'express'
 
 import setupMiddlewares from '@src/main/config/setup_middlewares'
 import { setupRoutes } from '@src/main/config/routes'
-import { serverGraphqlMiddle } from '@src/main/graphql/server/server_graphql_middle_express'
+import { setupApolloServer } from '@src/main/graphql/server/setup_middle_apollo_server'
+
 
 const app = express()
 setupMiddlewares(app)
 setupRoutes(app)
+setupApolloServer(app)
 export default app
