@@ -1,5 +1,5 @@
-import typeDefs from '@src/main/graphql/schema_roots/type_defs'
-import resolvers from '@src/main/graphql/schema_roots/resolvers'
+import typeDefs from '@src/main/graphql/schema_roots/root_typedefs'
+import resolvers from '@src/main/graphql/schema_roots/root_resolvers'
 
 import { ApolloServer } from 'apollo-server-express'
 import { Express } from 'express'
