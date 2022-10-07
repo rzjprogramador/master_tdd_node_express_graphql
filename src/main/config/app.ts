@@ -7,5 +7,4 @@ import { serverGraphqlMiddle } from '@src/main/graphql/server/server_graphql_mid
 const app = express()
 setupMiddlewares(app)
 setupRoutes(app)
-app.use("/graphql", serverGraphqlMiddle)
 export default app
